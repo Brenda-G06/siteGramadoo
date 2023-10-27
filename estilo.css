@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    /* font-size: 16px; */
+    font-size: 2.5vh;
+  
+    overflow-x: hidden;
+  background-color: #eacccc;
+   
+  }
+  h3{
+    z-index: 999;
+   
+    color: #ffffff;
+    
+  }
+legend{
+  background-color: #ffffff;;
+  color: #311c1c;
+}
+  h4{
+    color: #311c1c;
+  }
+  .contaier-imagem img{
+    width: 33vw;
+    margin-inline-start: -102%;
+    height: auto;
+  }
+  
+  .text{
+    color: #311c1c;
+    width:52%;
+     margin-right: 2%;
+    position: relative;
+   margin-top: -15%;
+  
+  }
+  #imagemGramado{
+    width: 13vw;
+    height: 13vw;
+   padding: 10%;
+    margin-right: 50%;
+     flex: 1;
+    
+  }
+  
+  
+  h2 {
+    padding: 1vw;
+    text-align: center;
+    font-size: 3ch;
+  }
+  
+  #descricao {
+    margin-top: 1vw;
+  }
+  
+  form{
+    margin-top: 6%;
+  }
+  
+  h1 {
+    background-color: #8a5c5c;
+    text-align: center;
+    font-size: 6ch;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+  
+  nav{
+    background: transparent;
+    margin-top: -9%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 50%;
+    list-style-type: none;
+  }
+  
+  nav li{
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    background-color: #d3abab;
+    text-align: center;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 3ch;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  
+  div{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90vw;
+    min-width: 50vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 2.4ch;
+    text-indent: 1vw;
+    
+    
+    text-align: justify;
+  }
+  
+  figure{
+    left: 20%; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contem{
+    justify-content: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: #594040;
+    color: white;
+  }
+  
+  figure img{
+    width: 30vw;
+    border-radius: 20px;
+    right: 20%;
+  }
+
+  /* .container{
+    /* top: 20%;
+    box-sizing: border-box;
+    border-radius: 2%;
+    background-color: #594040; */
+  
+   
+  fieldset{
+    background-color: #594040;
+    border-radius: 20px;
+    color: white;
+    top: 30%;
+    height: 40vh;
+    width: 20vw;
+  }
+  
+  legend{
+    text-align: center;;
+  }
+  
+  h6{
+    left: 80%;
+    font-size: 3ch;
+    margin-top: 6%;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    right: 60%;
+  }
+  
+  #cidade{
+    border-radius: 6px;
+    border-color: #594040;
+  }
+  
+  #estado{
+    border-radius: 6px;
+    border-color: #594040;
+  }
+  
+  #tel{
+    border-radius: 6px;
+    border-color: #594040;
+  }
+  
+  #email{
+    border-radius: 6px;
+    border-color: #594040;
+  }
+  
+  #nome{
+    border-radius: 6px;
+    border-color: #594040;
+  }
+  
+  button{
+    border-color: #594040;
+    border-radius: 20px;
+  }
+  
+  li{
+    margin-top: 10%;
+  }
+  
